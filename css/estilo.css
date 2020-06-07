@@ -1,0 +1,36 @@
+
+.botao-valor{
+    border: 0;
+    color: green;  
+    font-size: 35px;
+    background: none;
+}
+
+.botao-remover{
+    border: 0;
+    color: red;  
+    font-size: 35px;
+    background: none;
+}
+
+.botao-valor:hover, .botao-valor:active{
+    color: chartreuse;
+}
+
+.botao-valor:active{
+    font-size: 40px;
+}
+
+.botao-remover:active{
+    font-size: 40px;
+}
+
+.botao-remover:hover, .botao-remover:active{
+    color: firebrick;
+}
+
+@media only screen and (max-width: 575.98px) {
+    .container{
+        width: 92%;
+    }
+}
